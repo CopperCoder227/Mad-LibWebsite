@@ -3,6 +3,111 @@ html {
     width: 100%;
   }
 
-  .loud{
-    color: brown;
-  }
+  body {
+    background-image: url("imgs/castle.avif");
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+    }
+
+/*    
+    .intro{
+        color: white;
+        text-align: center;
+    
+      }
+    
+    .imgs{
+        height: 60%;
+        width: 60%;
+    }
+    
+    .imgsA{
+      height: 100%;
+      width: 100%;
+    }
+    
+    .imgsB{
+      height: 75%;
+      width: 75%;
+    }
+    
+    .imgsD{
+      height: 50%;
+      width: 50%;
+    }
+    
+    .btn {
+      background: rgb(255, 255, 255);
+      background-image: -webkit-linear-gradient(top, #a89803, #000000);
+      background-image: -moz-linear-gradient(top, #a89803, #000000);
+      background-image: -ms-linear-gradient(top,  #a89803, #000000);
+      background-image: -o-linear-gradient(top, #a89803, #000000);
+      background-image: linear-gradient(to bottom, #a89803, #000000);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      background: white;
+      background-image: -webkit-linear-gradient(top, #000000, #a89803);
+      background-image: -moz-linear-gradient(top, #000000, #a89803);
+      background-image: -ms-linear-gradient(top, #000000, #a89803);
+      background-image: -o-linear-gradient(top, #000000, #a89803);
+      background-image: linear-gradient(to bottom, #000000, #a89803);
+      text-decoration: none;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+    }
+    
+    .Chara{
+        height: 75%;
+        width: 75%;
+        padding: 10px 20px 10px 20px;
+    }
+    
+    .life{
+      padding: 30px 100px 100px 50px;
+    }
+    
+    hr{
+    height: 1px;
+    border: none;
+    background-color: #000000;
+    opacity: 1;
+    }
+    
+    .second{
+      padding: 30px 100px 100px 50px;
+    }
+    
+    .pinyon-script-regular {
+      font-family: "Pinyon Script", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    h1{
+      font-family: "Pinyon Script", serif;
+    }
+    
+    h3{
+      font-family: "Pinyon Script", serif;
+    }
+    
+    h5{
+      font-family: "Pinyon Script", serif;
+    }
+    
+    p{
+      font-family: "Pinyon Script", serif;
+    }

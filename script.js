@@ -1,7 +1,8 @@
 let userName = prompt('WHAT IS YOUR NAME?!?!?!')
-let userQuest = prompt('What is your quest?')
-let userFavoriteColor = prompt('What is your favorite color?')
-let swallowAirSpeed = prompt ('What is the speed of an unlaiden swallow?')
+let userAge = prompt('HOW OLD ARE YOU?!?!?!')
+let userFavoriteColor = prompt('WHAT IS YOUR FAVORITE COLOR?!?!?!')
+let userBestie = prompt ('WHAT IS THE NAME OF YOUR BESTIE?!?!?!')
+let userHate = prompt ('WHAT IS THE NAME OF THE PERSON YOU HATE?!?!?!')
 
 
 let myStory = `<p> Hello to our user: ${userName}! Answer me <span class="loud">these</span> questions 3 an the other side you'll see.</p>
