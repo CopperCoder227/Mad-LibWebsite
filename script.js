@@ -29,6 +29,13 @@ About _____ days later, ${userName} still hadn't heard from ${userBestie} and be
 `
 
 //insert generator here//
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let randomNumber = getRandomNumber(1, 4);
+console.log(randomNumber);
+
+document.body.insertAdjacentHTML('afterend', randomNumber)
 
 
 console.log (myStory)
