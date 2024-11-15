@@ -1,14 +1,36 @@
+//thingys to fill out//
 let userName = prompt('WHAT IS YOUR NAME?!?!?!')
 let userAge = prompt('HOW OLD ARE YOU?!?!?!')
 let userFavoriteColor = prompt('WHAT IS YOUR FAVORITE COLOR?!?!?!')
 let userBestie = prompt ('WHAT IS THE NAME OF YOUR BESTIE?!?!?!')
 let userHate = prompt ('WHAT IS THE NAME OF THE PERSON YOU HATE?!?!?!')
 
-
-let myStory = `<p> Hello to our user: ${userName}! Answer me <span class="loud">these</span> questions 3 an the other side you'll see.</p>
-
-<p> I see you have already answered, so your quest is to ${userQuest}</p>
+//THE STORY//
+let myStory = 
 `
+<h2> Chapter 1 - Fate Calls </h2>
+<p>
+  Once upon a time, ${userName} wakes up in their nice warm bed. The decide to
+  call ${userBestie} to make sure their ok, after a long night of partying
+  before.
+</p>
+<p>
+  When ${userBestie} doesnt pick up their phone, ${userName} gets concerned.
+  They use their magical hotline to directly call ${userBestie}.
+</p>
+<p>
+  They use their ${userColor} magic mirror to telepathically call their best
+  friend ${userBestie}. When ${userBestie} sill doesn't wake up, however,
+  ${userName} cals down and assumes they just fell asleep.
+</p>
+</p>
+About _____ days later, ${userName} still hadn't heard from ${userBestie} and became extra worried again.
+</p>
+`
+
+//insert generator here//
+
+
 console.log (myStory)
 
 document.getElementById('story').innerHTML = myStory
