@@ -8,12 +8,21 @@ html {
     background-size: cover;
     text-align: center;
     color: #000000;
-    }
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  }
 
   .GoOn1{
     color: #000000;
     ;
   }
+  .diff{
+    color: rgb(0, 110, 117);
+  }
+
+  .diff2{
+    color: rgb(0, 121, 0);
+  }
+
 /*    
     .intro{
         color: white;
