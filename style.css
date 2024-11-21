@@ -9,6 +9,7 @@ html {
     text-align: center;
     color: #000000;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: "Pinyon Script", serif;
   }
 
   .GoOn1{
@@ -23,6 +24,30 @@ html {
     color: rgb(0, 121, 0);
   }
 
+
+  .pinyon-script-regular {
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1{
+    font-family: "Pinyon Script", serif;
+  }
+  
+  h3{
+    font-family: "Pinyon Script", serif;
+  }
+  
+  h5{
+    font-family: "Pinyon Script", serif;
+  }
+  
+  p{
+    font-family: "Pinyon Script", serif;
+  }
+
+  
 /*    
     .intro{
         color: white;
@@ -103,24 +128,3 @@ html {
       padding: 30px 100px 100px 50px;
     }
     
-    .pinyon-script-regular {
-      font-family: "Pinyon Script", serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    h1{
-      font-family: "Pinyon Script", serif;
-    }
-    
-    h3{
-      font-family: "Pinyon Script", serif;
-    }
-    
-    h5{
-      font-family: "Pinyon Script", serif;
-    }
-    
-    p{
-      font-family: "Pinyon Script", serif;
-    }
