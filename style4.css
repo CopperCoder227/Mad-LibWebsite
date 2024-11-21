@@ -4,25 +4,26 @@ html {
   }
 
 .body {
-    background-image: url("imgs/besties.png");
+    background-image: url("imgs/DRAGON.webp");
     background-size: cover;
     text-align: center;
-    color: #000000;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-family: "Gentium Book Plus", serif;
 }
 
 .GoOn1{
-  color: #000000;
+  color: #ffffff;
   ;
 }
 .diff{
-  color: rgb(0, 110, 117);
+  color: rgb(0, 221, 236);
 }
 
 .diff2{
-  color: rgb(0, 121, 0);
+  color: rgb(0, 216, 0);
 }
+
 
 
 .gentium-book-plus-regular {

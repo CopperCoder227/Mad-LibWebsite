@@ -13,25 +13,22 @@ let randomNumber = getRandomNumber(100, 1000);
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 1 - Fate Calls</h2>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. After a minute or 2 of waking up, they decide to call <span class="diff">${userBestie}</span>their best friend. They went out the night before, so it was only fair to make sure that <span class="diff">${userBestie}</span> was ok!
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+  When <span class="diff">${userBestie}</span> didn't pick up their phone, <span class="diff">${userName}</span> got concerned. They quickly calmed down, however, after remembering that <span class="diff">${userBestie}</span> was a heavy sleeper!
 </h4>
 <h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
+About <span class="diff2">${randomNumber}</span> minutes later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.  
 </h4>
 <h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
+  They used their <span class="diff">${userColor}</span> magic mirror to telepathically call <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't answer, however, <span class="diff">${userName}</span> decides its time to go out and find their friend.
 </h4>
-<a href="pt2.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+<h4>
+<span class="diff">${userName}</span> gathers their hunting materials and tools while grabbing extra food for the road.
+</h4>
+<a href="pt2.html"><h4 class="GoOn1"><b>Finally they were ready to set out and find their friend!</b></h4></a>
 `
 save();
 

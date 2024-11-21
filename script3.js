@@ -4,11 +4,16 @@ let userAge = sessionStorage.getItem("userAge");
 let userColor = sessionStorage.getItem("userColor");
 let userBestie = sessionStorage.getItem("userBestie");
 let userHate = sessionStorage.getItem("userHate");
+//insert generator here//
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let randomNumber = getRandomNumber(100, 1000);
 
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 3 - Kidnapping Occurs</h2>
+<h2>Chapter 3 - Destiny Awaits</h2>
 <h4>
   Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
   call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying

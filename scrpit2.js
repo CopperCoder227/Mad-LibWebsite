@@ -4,15 +4,18 @@ let userAge = sessionStorage.getItem("userAge");
 let userColor = sessionStorage.getItem("userColor");
 let userBestie = sessionStorage.getItem("userBestie");
 let userHate = sessionStorage.getItem("userHate");
+//insert generator here//
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let randomNumber = getRandomNumber(100, 1000);
 
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 2 - Destiny Awaits</h2>
+<h2>Chapter 2 - Kidnapping Occurs</h2>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+  _____
 </h4>
 <h4>
   When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
@@ -24,12 +27,12 @@ let myStory =
   <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
 </h4>
 <h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
+About  days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
 </h4>
-<a href="pt3.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
-`
+<a href="pt3.html"><h4 class="GoOn1"><b><span class="diff">${userName}</span> fnaly reaches the castle. however it s blocked by evil dragon named <span class="diff">${userHate}</span></b></h4></a>
+`;
 
 
 console.log (myStory)
 
-document.getElementById('story').innerHTML = myStory
+document.getElementById('story').innerHTML = myStory;
