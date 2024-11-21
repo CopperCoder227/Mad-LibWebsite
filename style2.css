@@ -9,42 +9,62 @@ html {
     text-align: center;
     color: #000000;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family: "gstatic", serif;
-  }
-  
-  .GoOn1{
-    color: #000000;
-    ;
-  }
-  .diff{
-    color: rgb(0, 110, 117);
-  }
+    font-family: "Gentium Book Plus", serif;
+}
 
-  .diff2{
-    color: rgb(0, 121, 0);
-  }
+.GoOn1{
+  color: #000000;
+  ;
+}
+.diff{
+  color: rgb(0, 110, 117);
+}
+
+.diff2{
+  color: rgb(0, 121, 0);
+}
 
 
-  .pinyon-script-regular {
-    font-family: "Pinyon Script", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  h1{
-    font-family: "Pinyon Script", serif;
-  }
-  
-  h3{
-    font-family: "Pinyon Script", serif;
-  }
-  
-  h5{
-    font-family: "Pinyon Script", serif;
-  }
-  
-  p{
-    font-family: "Pinyon Script", serif;
-  }
+.gentium-book-plus-regular {
+font-family: "Gentium Book Plus", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.gentium-book-plus-bold {
+font-family: "Gentium Book Plus", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.gentium-book-plus-regular-italic {
+font-family: "Gentium Book Plus", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.gentium-book-plus-bold-italic {
+font-family: "Gentium Book Plus", serif;
+font-weight: 700;
+font-style: italic;
+}
+
+
+h1{
+  font-family: "Gentium Book Plus", serif;
+}
+
+h3{
+  font-family: "Gentium Book Plus", serif;
+}
+
+h5{
+  font-family: "Gentium Book Plus", serif;
+}
+
+p{
+  font-family: "Gentium Book Plus", serif;
+}
+
 
   
