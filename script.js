@@ -14,24 +14,24 @@ let randomNumber = getRandomNumber(100, 1000);
 let myStory = 
 `
 <h2>Chapter 1 - Fate Calls</h2>
-<p>
+<h4>
   Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
   call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
   before.
-</p>
-<p>
+</h4>
+<h4>
   When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
   They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
-</p>
-<p>
+</h4>
+<h4>
   They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
   friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
   <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
-</p>
-</p>
+</h4>
+<h4>
 About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
-</p>
-<a href="pt2.html"><h3 class="GoOn1"><b>They decide to go out and find their friend!</b></h3></a>
+</h4>
+<a href="pt2.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
 `
 save();
 
