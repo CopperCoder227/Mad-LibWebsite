@@ -15,6 +15,8 @@ let randomNumber = getRandomNumber(100, 1000);
 let myStory = 
 `
 <h4>
+<h2>Chapter 1 - Good Morning!</h2>
+<h4>
 Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. After a minute or 2 of waking up, they decide to call <span class="diff">${userBestie}</span>their best friend. They went out the night before, so it was only fair to make sure that <span class="diff">${userBestie}</span> was ok!
 </h4>
 <h4>
