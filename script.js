@@ -27,9 +27,7 @@ About <span class="diff2">${randomNumber}</span> minutes later, <span class="dif
   They used their <span class="diff">${userColor}</span> magic mirror to telepathically call <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't answer, however, <span class="diff">${userName}</span> decides its time to go out and find their friend.
 </h4>
 <h4>
-<span class="diff">${userName}</span> gathers their hunting materials and tools. making sure o grab their favorite <span class="diff1">${userWeapon}</span>
-<span class="diff1">${userWeapon}</span>
- while grabbing extra food for the road.
+<span class="diff">${userName}</span> gathers their hunting materials and tools. They make sure to grab their favorite <span class="diff1">${userColorB}</span>  <span class="diff1">${userWeapon}</span> before heading out too. They also grab extra food before heading out, so they don't starve.
 </h4>
 <a href="pt2.html"><h4 class="GoOn1"><b>Finally they were ready to set out and find their friend!</b></h4></a>
 `
