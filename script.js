@@ -1,7 +1,8 @@
 //thingys to fill out//
 let userName = prompt('WHAT IS YOUR NAME?!?!?!')
-let userAge = prompt('HOW OLD ARE YOU?!?!?!')
 let userColor = prompt('WHAT IS YOUR FAVORITE COLOR?!?!?!')
+let userWeapon = prompt('WHAT IS YOUR CHOICE OF WEAPON?!?!?!')
+let userColorB = prompt('PICK ANOTHER COLOR?!!!')
 let userBestie = prompt ('WHAT IS THE NAME OF YOUR BESTIE?!?!?!')
 let userHate = prompt ('WHAT IS THE NAME OF THE PERSON YOU HATE?!?!?!')
 //insert generator here//
@@ -26,7 +27,9 @@ About <span class="diff2">${randomNumber}</span> minutes later, <span class="dif
   They used their <span class="diff">${userColor}</span> magic mirror to telepathically call <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't answer, however, <span class="diff">${userName}</span> decides its time to go out and find their friend.
 </h4>
 <h4>
-<span class="diff">${userName}</span> gathers their hunting materials and tools while grabbing extra food for the road.
+<span class="diff">${userName}</span> gathers their hunting materials and tools. making sure o grab their favorite <span class="diff1">${userWeapon}</span>
+<span class="diff1">${userWeapon}</span>
+ while grabbing extra food for the road.
 </h4>
 <a href="pt2.html"><h4 class="GoOn1"><b>Finally they were ready to set out and find their friend!</b></h4></a>
 `
@@ -36,8 +39,9 @@ save();
 //Remy thing to make it work different pages//
 function save() {
   userName = sessionStorage.setItem("userName", userName);
-  userAge = sessionStorage.setItem("userAge", userAge);
   userColor = sessionStorage.setItem("userColor", userColor);
+  userWeapon = sessionStorage.setItem("userWeapon", userWeapon);
+  userColorB = sessionStorage.setItem("userColorB", userColorB);
   userBestie = sessionStorage.setItem("userBestie", userBestie);
   userHate = sessionStorage.setItem("userHate", userHate);
 }

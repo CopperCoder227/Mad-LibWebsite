@@ -1,7 +1,8 @@
 //thingys to fill out//
 let userName = sessionStorage.getItem("userName");
-let userAge = sessionStorage.getItem("userAge");
 let userColor = sessionStorage.getItem("userColor");
+let userWeapon = sessionStorage.getItem("userWeapon");
+let userColorB = sessionStorage.getItem("userColorB");
 let userBestie = sessionStorage.getItem("userBestie");
 let userHate = sessionStorage.getItem("userHate");
 //insert generator here//
