@@ -14,25 +14,25 @@ let randomNumber = getRandomNumber(1, 25);
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 3 - WRONG</h2>
+<h2>Chapter 3.L - The Tower Of Light</h2>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+    <span class="diff">${userName}</span> decides to head to the tower of light.
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+    As their heading on the path, they seen many burn marks witch indicate their on the right pah. after all, <span class="diff">${userHate}</span>
+probably turned into a dragon with all the destruction caused!
 </h4>
 <h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
+    Unfortunately when <span class="diff">${userName}</span> opened the towers doors, they saw a giant pit straight to the planets core. 
 </h4>
 <h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
+    Confused <span class="diff">${userName}</span> turned around to leave, only for <span class="diff">${userBestie}</span> to push them right into the pit, leading to <span class="diff">${userName}</span>'s death.
 </h4>
-<a href="pt4.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+<h2>Unfortunately you picked the wrong tower. 
+</h2>
+<h2>
+Go back and chose the right tower if you wish to go on!
+</h2>
 `
 
 

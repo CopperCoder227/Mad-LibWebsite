@@ -13,26 +13,18 @@ let randomNumber = getRandomNumber(1, 25);
 
 //THE STORY//
 let myStory = 
-`
-<h2>Chapter 3 - Destiny Awaits</h2>
+`<h2>Chapter 3 - Destiny Awaits</h2>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+  After leaving the house, <span class="diff">${userName}</span>'s ext goal was
+  to find out were the were going.
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+  They knew there were 2 different towers nearby, but on opposite sides of the
+  valley.
 </h4>
-<h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
-</h4>
-<h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
-</h4>
-<a href="pt4.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+<h4>The tower of <a href="ptW.html" class="GoOn1">light</a>.</h4>
+<h4>And the tower of <a href="ptR.html" class="GoOn1">darkness</a>.</h4>
+<h4 class="GoOn1">Click what tower you wish to venture to!</h4>
 `
 
 
