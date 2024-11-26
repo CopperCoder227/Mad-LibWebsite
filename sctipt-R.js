@@ -9,28 +9,29 @@ let userHate = sessionStorage.getItem("userHate");
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-let randomNumber = getRandomNumber(1, 25);
+let randomNumber = getRandomNumber(1, 5);
 
 //THE STORY//
 let myStory = 
 `
 <h2>Chapter 3 - The Tower of Darkness</h2>
 <h4>
- Of course this is where a villian would hide! it is called the "Tower of Darkness" after all!
+  Of course this is where a villain would hide! it is called the "Tower of
+  Darkness" after all!
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+  Surprisingly the path to the tower of darkness was quite the opposite. It was
+  filled with flowers of all shapes and sizes, plenty of sunlight, and an
+  endless <span class="diff">${userColorB}</span> sky.
 </h4>
 <h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
+  <span class="diff">${userName}</span> reaches the tower only <span class="diff2">${randomNumber}</span> minutes after beginning their journey. 
 </h4>
-<h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
+<h4>  <span class="diff">${userName}</span>'s <span class="diff">${userColorB}</span> <span class="diff">${userWeapon}</span> at the ready, they begin to open the tower door...
 </h4>
-<a href="pt4.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+<a href="pt4.html"
+  ><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a
+>
 `
 
 

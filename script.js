@@ -17,7 +17,7 @@ let myStory =
 <h4>
 <h2>Chapter 1 - Good Morning!</h2>
 <h4>
-Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. After a minute or 2 of waking up, they decide to call <span class="diff">${userBestie}</span>their best friend. They went out the night before, so it was only fair to make sure that <span class="diff">${userBestie}</span> was ok!
+Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. After a minute or 2 of waking up, they decide to call <span class="diff">${userBestie}</span> their best friend. They went out the night before, so it was only fair to make sure that <span class="diff">${userBestie}</span> was ok!
 </h4>
 <h4>
   When <span class="diff">${userBestie}</span> didn't pick up their phone, <span class="diff">${userName}</span> got concerned. They quickly calmed down, however, after remembering that <span class="diff">${userBestie}</span> was a heavy sleeper!
@@ -26,7 +26,7 @@ Once upon a time, <span class="diff">${userName}</span> wakes up in their nice w
 About <span class="diff2">${randomNumber}</span> minutes later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.  
 </h4>
 <h4>
-  They used their <span class="diff">${userColor}</span> magic mirror to telepathically call <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't answer, however, <span class="diff">${userName}</span> decides its time to go out and find their friend.
+  They used their <span class="diff">${userColor}</span> magic mirror to telepathically call <span class="diff">${userBestie}</span>. When <span class="diff">${userBestie}</span> sill doesn't answer, however, <span class="diff">${userName}</span> decides its time to go out and find their friend.
 </h4>
 <h4>
 <span class="diff">${userName}</span> gathers their hunting materials and tools. They make sure to grab their favorite <span class="diff1">${userColorB}</span>  <span class="diff1">${userWeapon}</span> before heading out too. They also grab extra food before heading out, so they don't starve.
