@@ -14,7 +14,6 @@ let randomNumber = getRandomNumber(1, 25);
 //THE STORY//
 let myStory = 
 `
-<div>
 <h2>Chapter 3 - Destiny Awaits</h2>
 <br>
 <br>
@@ -30,7 +29,6 @@ let myStory =
 <h4>The tower of <a href="ptW.html" class="GoOn1">light</a>.</h4>
 <h4>And the tower of <a href="ptR.html" class="GoOn1">darkness</a>.</h4>
 <h4 class="GoOn1">Click what tower you wish to venture to!</h4>
-</div>
 `
 
 
