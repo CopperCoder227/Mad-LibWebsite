@@ -13,7 +13,12 @@ let randomNumber = getRandomNumber(1, 25);
 
 //THE STORY//
 let myStory = 
-`<h2>Chapter 3 - Destiny Awaits</h2>
+`
+<div>
+<h2>Chapter 3 - Destiny Awaits</h2>
+<br>
+<br>
+<br>
 <h4>
   After leaving the house, <span class="diff">${userName}</span>'s ext goal was
   to find out were the were going.
@@ -25,6 +30,7 @@ let myStory =
 <h4>The tower of <a href="ptW.html" class="GoOn1">light</a>.</h4>
 <h4>And the tower of <a href="ptR.html" class="GoOn1">darkness</a>.</h4>
 <h4 class="GoOn1">Click what tower you wish to venture to!</h4>
+</div>
 `
 
 

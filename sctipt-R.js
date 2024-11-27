@@ -27,10 +27,8 @@ let myStory =
 <h4>
   <span class="diff">${userName}</span> reaches the tower only <span class="diff2">${randomNumber}</span> minutes after beginning their journey. 
 </h4>
-<h4>  <span class="diff">${userName}</span>'s <span class="diff">${userColorB}</span> <span class="diff">${userWeapon}</span> at the ready, they begin to open the tower door...
-</h4>
 <a href="pt4.html"
-  ><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a
+  ><h4 class="GoOn1"><b><span class="diff">${userName}</span>'s <span class="diff">${userColorB}</span> <span class="diff">${userWeapon}</span> at the ready, they begin to open the tower door...</b></h4></a
 >
 `
 

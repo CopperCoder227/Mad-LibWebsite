@@ -14,8 +14,12 @@ let randomNumber = getRandomNumber(100, 1000);
 //THE STORY//
 let myStory = 
 `
+<div>
 <h4>
 <h2>Chapter 1 - Good Morning!</h2>
+<br>
+<br>
+<br>
 <h4>
 Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. After a minute or 2 of waking up, they decide to call <span class="diff">${userBestie}</span> their best friend. They went out the night before, so it was only fair to make sure that <span class="diff">${userBestie}</span> was ok!
 </h4>
@@ -32,6 +36,7 @@ About <span class="diff2">${randomNumber}</span> minutes later, <span class="dif
 <span class="diff">${userName}</span> gathers their hunting materials and tools. They make sure to grab their favorite <span class="diff1">${userColorB}</span>  <span class="diff1">${userWeapon}</span> before heading out too. They also grab extra food before heading out, so they don't starve.
 </h4>
 <a href="pt2.html"><h4 class="GoOn1"><b>Finally they were ready to set out and find their friend!</b></h4></a>
+</div>
 `
 save();
 

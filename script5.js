@@ -9,28 +9,53 @@ let userHate = sessionStorage.getItem("userHate");
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-let randomNumber = getRandomNumber(100, 1000);
+let randomNumber = getRandomNumber(1, 50);
 
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 5 - FIGHT LITTLE WOLF</h2>
+
+<h2>Chapter 5 - Slay the Beast</h2>
+<br>
+<br>
+<br>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+  Right after being knocked off, <span class="diff">${userName}</span> slides
+  off a wall and lands safely.
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+  <span class="diff">${userHate}</span> flies down and tries to strike
+  <span class="diff">${userName}</span>, but just misses by
+  <span class="diff2">${randomNumber}</span>feet.
 </h4>
 <h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
+  The casim is dark and dangerous, the only thing lighting it is
+  <span class="diff">${userHate}</span>'s dragonus form. there are buildings
+  that look like ruins, and others that have completely fallen over. In the far
+  distance, <span class="diff">${userBestie}</span> hangs in a cage, sleeping.
 </h4>
 <h4>
-<a href="pt6.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+  As they fight, <span class="diff">${userName}</span> sees a weak spot on
+  <span class="diff">${userHate}</span>'s wing. an open wound.
+  <span class="diff">${userName}</span> sees their opportunity to revert
+  <span class="diff">${userHate}</span>.
+</h4>
+<h4>
+  they reveal their potion and threaten to kill
+  <span class="diff">${userHate}</span> in the process if
+  <span class="diff">${userBestie}</span> isnt released and they cant get out.
+</h4>
+<h4>
+  <a href="pt6.html"
+    ><h4 class="GoOn1">
+      <b>
+      <span class="diff">${userHate}</span> grabs
+        <span class="diff"
+          >${userName}</span> and <span class="diff">${userBestie}</span>'s cage, and
+          flies upward.
+      </b>
+    </h4></a
+  >
 </h4>
 `
 

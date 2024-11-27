@@ -14,24 +14,40 @@ let randomNumber = getRandomNumber(100, 1000);
 //THE STORY//
 let myStory = 
 `
-<h2>Chapter 5 - Reunited</h2>
+<h2>Chapter 6 - Reunited</h2>
+<br>
+<br>
+<br>
 <h4>
-  Once upon a time, <span class="diff">${userName}</span> wakes up in their nice warm bed. The decide to
-  call <span class="diff">${userBestie}</span> to make sure their ok, after a long night of partying
-  before.
+  Once they were high enough up, <span class="diff">${userName}</span> takes the
+  opportunity to sipll the potion into <span class="diff">${userHate}</span>'s
+  wing.
 </h4>
 <h4>
-  When <span class="diff">${userBestie}</span> doesnt pick up their phone, <span class="diff">${userName}</span> gets concerned.
-  They use their magical hotline to directly call <span class="diff">${userBestie}</span>.
+  they slowly start to fall down as
+  <span class="diff">${userHate}</span> transforms back into a human.
 </h4>
 <h4>
-  They use their <span class="diff">${userColor}</span> magic mirror to telepathically call their best
-  friend <span class="diff">${userBestie}</span>. When ${userBestie}</span> sill doesn't wake up, however,
-  <span class="diff">${userName}</span> cals down and assumes they just fell asleep.
+  As they fall, <span class="diff">${userName}</span> frees
+  <span class="diff">${userBestie}</span> and they bot land safely on the bed f
+  flowers sournding the tower.
 </h4>
 <h4>
-About <span class="diff2">${randomNumber}</span> days later, <span class="diff">${userName}</span> still hadn't heard from <span class="diff">${userBestie}</span> and became worried once more.
+  unfortunately for <span class="diff">${userBestie}</span>. they fall straight
+  back down into the casim, never to be seen again.
 </h4>
+<h4>
+  <span class="diff">${userBestie}</span> wakes up, shocked by their location
+  and <span class="diff">${userName}</span>'s outfit.
+</h4>
+<h4>
+  They rejoyce in being together again and start gossiping about the crazy
+  events they both went through
+</h4>
+<h4>
+  <h4 class="GoOn1">
+    <b> THE END! </b>
+  </h4>
 `
 
 

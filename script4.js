@@ -15,6 +15,9 @@ let randomNumber = getRandomNumber(1, 25);
 let myStory = 
 `
 <h2>Chapter 4 - Challenges Awaiting</h2>
+<br>
+<br>
+<br>
 <h4>
   The door is stuck and slowly creeks open.
 </h4>
@@ -27,10 +30,7 @@ let myStory =
 <h4>
 At the same time as the realization, dark <span class="diff">${userColor}</span> eyes emerge from the shadows.
 </h4>
-<h4>
-  <span class="diff">${userHate}</span> pushes <span class="diff">${userName}</span> off the staircase, falling to their foreseeable doom...
-</h4>
-<a href="pt5.html"><h4 class="GoOn1"><b>They decide to go out and find their friend!</b></h4></a>
+<a href="pt5.html"><h4 class="GoOn1"><b><span class="diff">${userHate}</span> pushes <span class="diff">${userName}</span> off the staircase, falling to their foreseeable doom...</b></h4></a>
 
 `
 

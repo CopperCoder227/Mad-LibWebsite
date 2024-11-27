@@ -3,7 +3,7 @@ html {
     width: 100%;
   }
 
-.body {
+  .body {
     background-image: url("imgs/road.png");
     background-size: cover;
     text-align: center;
@@ -12,6 +12,7 @@ html {
     font-family: "Gentium Book Plus", serif;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 .GoOn1{
@@ -24,6 +25,11 @@ html {
 
 .diff2{
   color: rgb(0, 221, 0);
+}
+
+div{
+margin-top: 60px;
+background-color: rgba(240, 248, 255, 0.247);
 }
 
 
