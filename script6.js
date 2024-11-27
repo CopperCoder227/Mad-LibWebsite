@@ -44,10 +44,10 @@ let myStory =
   They rejoyce in being together again and start gossiping about the crazy
   events they both went through
 </h4>
-<h4>
+<h3>
   <h4 class="GoOn1">
     <b> THE END! </b>
-  </h4>
+  </h3>
 `
 
 
