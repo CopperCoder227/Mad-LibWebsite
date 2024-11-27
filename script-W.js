@@ -15,6 +15,9 @@ let randomNumber = getRandomNumber(1, 25);
 let myStory = 
 `
 <h2>Chapter 3 - The Tower Of Light</h2>
+<br>
+<br>
+<br>
 <h4>
     <span class="diff">${userName}</span> decides to head to the tower of light.
 </h4>

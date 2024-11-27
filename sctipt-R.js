@@ -15,6 +15,9 @@ let randomNumber = getRandomNumber(1, 5);
 let myStory = 
 `
 <h2>Chapter 3 - The Tower of Darkness</h2>
+<br>
+<br>
+<br>
 <h4>
   Of course this is where a villain would hide! it is called the "Tower of
   Darkness" after all!
