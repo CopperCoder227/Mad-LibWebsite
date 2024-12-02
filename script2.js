@@ -14,7 +14,6 @@ let randomNumber = getRandomNumber(100, 1000);
 //THE STORY//
 let myStory = 
 `
-<div>
 <h2>Chapter 2 - Destiny Awaits</h2>
 <br>
 <br>
@@ -49,7 +48,6 @@ Suddenly, a closet on the other side of the hallway opened.
   Hearing this, <span class="diff">${userName}</span> becomes enraged, and beings to stop out of the castle. Martha catches <span class="diff">${userName}</span> before they leave, and tells the to take the reversal potion they made. it could reverse  <span class="diff">${userHate}</span>'s transformation and bound them so they cant transform again.
 </h4>
 <a href="pt3.html"><h4 class="GoOn1"><span class="diff">${userName}</span> thanks Martha and with one last hug, exits the castle.</h4></a>
-</div>
 `;
 
 
